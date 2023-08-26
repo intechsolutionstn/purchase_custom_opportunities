@@ -1,4 +1,0 @@
-id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
-cod_user,website_cod_user_name,cash_on_delivery_odoo_av.model_cod_config,,1,1,1,1
-res_zip,web.res.zip,cash_on_delivery_odoo_av.model_res_zip,,1,1,1,1
-cod_payment_collection,web.cod.payment.collection,cash_on_delivery_odoo_av.model_cod_payment_collection,,1,1,1,0
