@@ -19,7 +19,7 @@
     'website': 'https://www.intech-eg.tech',
     'author': 'InTech Solutions -- Rabeb Mahmoudi',
     'support': 'odooappssupport@intech-eg.tech',
-    'depends': ['account', 'purchase'],
+    'depends': ['account', 'purchase', 'crm', 'hr_expense'],
     'data': [
 
         'views/purchase_views.xml',
