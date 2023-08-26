@@ -13,6 +13,9 @@
     'category': 'CRM/Purchase/Expenses/Inventory',
     'sequence': 35,
     'description': "Odoo 14 CRM Opportunity purchases & expenses linking module seamlessly connects sales opportunities with related purchases and expenses. It also offers a clear indicator to assess profitability by calculating the difference between sales amounts, purchases, and expenses. NOTE: you have to install the folloing modules (CRM, purchases & expenses)",
+    'images': [
+        'static/description/purchases_in_opportunity.jpg',
+    ],
     'website': 'https://www.intech-eg.tech',
     'author': 'InTech Solutions -- Rabeb Mahmoudi',
     'support': 'odooappssupport@intech-eg.tech',
