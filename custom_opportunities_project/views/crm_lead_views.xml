@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+<record id="crm_case_form_view_oppor" model="ir.ui.view">
+    <field name="name">crm.lead.oppor.inherited.crm</field>
+    <field name="model">crm.lead</field>
+    <field name="inherit_id" ref="crm.crm_lead_view_form"/>
+    <field name="arch" type="xml">
+        <xpath expr="//button[@name='action_set_won_rainbowman']" position="before">
+            <button string="New Project" name="action_list_related_projects" type="object" class="oe_highlight"
+                    attrs="{'invisible': ['|', ('type', '=', 'lead'), '&amp;', ('probability', '=', 0), ('active', '=', False)]}"/>
+        </xpath>
+        <button name="action_schedule_meeting" position="after">
+            <button class="oe_stat_button" type="object"
+                    name="action_list_related_projects" icon="fa-puzzle-piece" attrs="{'invisible': [('type', '=', 'lead')]}">
+                <field name="project_count" widget="statinfo" string="Project"/>
+            </button>
+        </button>
+    </field>
+</record>
+
+
+       
+
+</odoo>
